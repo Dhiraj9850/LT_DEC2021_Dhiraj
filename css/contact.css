@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 35%;
+    height: 450px;
+    display: block;
+    margin: auto;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.container h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+#name, #mobile ,#email{
+    width: 70%;
+    font-size: 17px;
+    margin-left: 14%;
+    margin-bottom: 12px;
+    outline: none;
+}
+.container p{
+    font-size: 17px;
+    margin-left: 75px;
+}
+textarea{
+    width: 70%;
+    margin-left: 14%;
+    margin-bottom: 12px;
+    outline: none;
+}
+#btn{
+    width: 120px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 18px;
+    color: white;
+    border: 2px solid red;
+    background-color: rgb(236, 33, 33);
+    border-radius: 7px;
+    cursor: pointer;
+}

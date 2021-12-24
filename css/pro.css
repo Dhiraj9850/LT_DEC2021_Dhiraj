@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.container{
+    margin: 2px solid black;
+    background: url('/img/pro.jpg')no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.9;
+}
+#header{
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+#header .fas{
+    margin-left: 20px;
+    color: gold;
+}
+#header h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: white;
+    font-family: 'PT Serif', serif;
+}
+#header h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(233, 181, 233);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin-bottom: 30px;
+    border-bottom: 3px solid purple;
+}
+h2 span{
+    margin-left: 7px;
+    margin-right: 7px;
+    color: rgb(144, 26, 109);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.container #recbox{
+    margin-top: 15px;
+    width: 90%;
+    height: 400px;
+    /* display: block;
+    margin: auto; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-left: 65px;
+}
+h3{
+    border: 1px solid grey;
+    width: 15%;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    background-color: black;
+    padding: 5px;
+    border-radius: 18px;
+}
+#recbox .box{
+    border: 2px solid wheat;
+    /* background-color: white; */
+    /* opacity: 0.2;  */
+    height: 320px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#recbox .box:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in;
+}
+.box h4{
+    color: gold;
+    background-color: purple;
+    border: 1px solid gold;
+    height: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 5px;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 4px;
+}
+.box span{
+   width: 290px;
+   margin-bottom: 50px;
+   margin-top:10px;
+   margin-left: 13px;
+   font-size: 16px;
+   color: white;
+   
+}
+.box #getsilver-box,#getgold-box, #getdiamond-box{
+    height: 100px;
+    width: 200px;
+    border: 2px solid white;
+     margin-left: 60px;
+    /* margin-bottom: 80px;  */
+    background-color: rgb(26, 21, 21);
+    opacity: 0.7;
+    border-radius: 10px;
+}
+#getsilver-box h4,#getgold-box h4, #getdiamond-box h4{
+    font-size: 30px;
+    color: blanchedalmond;
+    height: 50px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:none;
+    border: none;
+}
+#getsilver-box p,#getgold-box p, #getdiamond-box p{
+   
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+.container p{
+    color: blanchedalmond;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.btn{
+    width: 50%;
+    display: block;
+    margin: auto;
+    font-size: 17px;
+    background-color: darkslategrey;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}

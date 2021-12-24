@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+#header{
+    width: 35%;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+img{
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+
+}
+#header h1{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 90px;
+    color: rgb(68, 7, 68);
+}
+.container{
+    width: 35%;
+    border-radius: 7px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 520px;
+    background-color:#f5f6fa;
+    box-shadow: 2px 2px 5px 5px rgb(218, 214, 214);
+}
+.container h2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid gray;
+    font-family: 'Kanit', sans-serif;
+    background-color:#f5f6fa;
+}
+#name{
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    width: 85%;
+    /* height: 500px; */
+    display: block;
+    margin: auto;
+    background-color:#f5f6fa;
+}
+input{
+    font-size: 15px;
+    margin-left: 17px;
+    background-color: white;
+    border-radius: 5px;
+}
+#fname{
+    width: 45%;
+    height: 24px;
+    margin-left: 7px;
+    outline: none;
+ }
+#sname{
+    width: 45%;
+    height: 24px;
+    margin-left: 11px;
+    outline: none;
+}
+#section{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+#email{
+    width: 81%;
+    height: 24px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    outline: none;
+    background-color: white;
+}
+#username{
+    width: 81%;
+    height: 24px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    outline: none;
+}
+#password{
+    width: 81%;
+    height: 24px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    outline: none;
+}
+
+#dob p{
+    margin-left: 42px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(58, 55, 55);
+}
+#dob .fas{
+    padding: 6px;
+    color: rgb(58, 55, 55);
+}
+#date{
+    width: 81%;
+    height: 24px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    outline: none;
+}
+#genders{
+    display: block;
+  
+}
+#genders p{
+    margin-left: 42px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(58, 55, 55);
+    background-color:#f5f6fa;
+}
+#gender{
+    margin-top: 5px;
+}
+#malegender{
+    margin-left: 40px;
+    margin-top: 5px;
+}
+#femalegender{
+    margin-left: 40px;
+    margin-top: 5px;
+}
+#checkbox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+#checkbox p{
+    margin-left: 5px;
+}
+.btn{
+    display: block;
+    margin: auto;
+    width: 170px;
+    height: 35px;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: rgb(9, 104, 9);
+    border: 2px solid rgb(24, 153, 24);
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+}
+.btn:hover{
+    background-color: rgb(22, 122, 22);
+    transition: 0.9s ease-in;
+    color: rgb(236, 225, 225);
+}
+#loginbtn{
+    color: rgba(6, 91, 102, 0.692);
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color:#f5f6fa;
+    font-weight: bold;
+}

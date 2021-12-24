@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>musico-sign up page</title>
+    <script src="https://kit.fontawesome.com/1c9005996e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/signup.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600&family=Baloo+Bhaijaan+2:wght@700&family=Dancing+Script&family=Fira+Sans:ital,wght@0,100;1,100&family=Irish+Grover&family=Lato:ital,wght@0,100;1,400&family=Libre+Baskerville:wght@700&family=Lobster&family=Lora:ital,wght@1,600&family=Oswald:wght@200&family=Roboto+Slab:wght@800&family=Shippori+Antique&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="header">
+        <img src="img/musico.jpg" alt="musicologo">
+        <h1>Musico</h1>
+    </div>
+
+    <div class="container">
+        <h2>Create a new account here!</h2>
+        <form>
+            <div id="name">
+                <input type="text" name="First name" id="fname" placeholder="First name">
+                <input type="text" name="surname" id="sname" placeholder="surname">
+            </div>
+            <input type="email" name="email" id="email" placeholder="Mobile Number or email address">
+            <input type="text" name="username" id="username" placeholder="Create username">
+            <input type="password" name="password" id="password" placeholder="Create Password">
+           
+
+            <div id="dob">
+
+                <p>Date of Birth<i class="fas fa-question-circle"></i></p>
+                <input type="date" name="date" id="date">
+            </div>
+            <div id="genders">
+                <p>Gender <i class="fas fa-question-circle"></i></p>
+
+                <input type="radio" name="gender" id="malegender" value="Male">Male
+                <input type="radio" name="gender" id="femalegender" value="Female">Female
+
+
+            </div>
+            <div id="checkbox">
+                <input type="checkbox" name="checkbox" id="check">
+                <p>i agree to the terms and condtions</p>
+            </div>
+
+        </form>
+        <button class="btn">sign up</button>
+        <button id="loginbtn">Already have an Account?</button>
+    </div>
+
+    <script>
+        let my_url_login = "/login.html";
+        document.getElementById("loginbtn").onclick = function () {
+            window.location.replace(my_url_login);
+        }
+    </script>
+</body>
+
+</html>
